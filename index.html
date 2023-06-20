@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/imperial-choco/assets/index-f0431b59.js"></script>
+    <script type="module" crossorigin src="/imperial-choco/assets/index-d38f5900.js"></script>
     <link rel="stylesheet" href="/imperial-choco/assets/index-1554fd3e.css">
   </head>
   <body>
@@ -18,7 +18,7 @@
   <!-------------------------------------------------- HEADER 1----------------------------------------------------------->
   <div class="container page-header">
     <nav class="header-nav">
-      <a href="" class="head-logo">
+      <a href="#hero" class="head-logo">
         <div class="head-logo-div">
           <span class="head-logo-text"
             ><span class="head-logo-italic">SIMPLY&nbsp;</span>CHOCOLATE</span
@@ -30,19 +30,19 @@
       </a>
       <ul class="header-nav-list">
         <li>
-          <a class="header-list-item" href="">Home</a>
+          <a class="header-list-item" href="#hero">Home</a>
         </li>
         <li>
-          <a class="header-list-item" href="">How it's made?</a>
+          <a class="header-list-item" href="#made">How it's made?</a>
         </li>
         <li>
-          <a class="header-list-item" href="">Our products</a>
+          <a class="header-list-item" href="#products">Our products</a>
         </li>
         <li>
-          <a class="header-list-item" href="">Top sellers</a>
+          <a class="header-list-item" href="#sellers">Top sellers</a>
         </li>
         <li>
-          <a class="header-list-item" href="">Chocolate is loved</a>
+          <a class="header-list-item" href="#reviews">Chocolate is loved</a>
         </li>
       </ul>
     </nav>
@@ -77,12 +77,12 @@
       </svg>
     </button>
     <ul class="head-menu-list">
-      <li><a class="head-menu-item" href="">Home</a></li>
-      <li><a class="head-menu-item" href="">How it's made?</a></li>
-      <li><a class="head-menu-item" href="">Our products</a></li>
-      <li><a class="head-menu-item" href="">Top sellers</a></li>
+      <li><a class="head-menu-item" href="#hero">Home</a></li>
+      <li><a class="head-menu-item" href="#made">How it's made?</a></li>
+      <li><a class="head-menu-item" href="#products">Our products</a></li>
+      <li><a class="head-menu-item" href="#sellers">Top sellers</a></li>
       <li>
-        <a class="head-menu-item" href="">Chocolate is loved</a>
+        <a class="head-menu-item" href="#reviews">Chocolate is loved</a>
       </li>
     </ul>
     <ul class="header-menu-icon-list">
@@ -105,7 +105,7 @@
 </header>
 
     <main>
-      <section class="hero">
+      <section id="hero" class="hero">
   <div class="container">
     <div class="hero_inner">
       <h1 class="visually-hidden">hero</h1>
@@ -118,12 +118,12 @@
           <button class="hero_buy_btn hero_button" type="button">
             Buy now
           </button>
-          <button class="hero_description_btn hero_button" type="button">
+          <a class="hero_description_btn hero_button" href="#made">
             How it’s made
-          </button>
+          </a>
         </div>
         <div class="hero_scroll">
-          <a class="hero_scroll_btn link" href="#">
+          <a class="hero_scroll_btn link" href="#footer">
             <p class="hero_text">scroll down</p>
             <div class="hero_icon-block">
               <svg class="hero_scroll_icon" width="28" height="28">
@@ -136,6 +136,7 @@
     </div>
   </div>
 </section>
+
       <section class="advantages">
   <!-- у цій секції боковий падінг відрізняється від десктопного контейнеру, тому для .hero.container задати боковий падінг відповідно до макету -->
 
@@ -311,7 +312,7 @@
   </div>
 </section>
 
-      <section class="made">
+      <section id="made" class="made">
   <div class="container">
     <h2 class="made__title">How it's <span class="made-span">made?</span></h2>
     <div class="made__about">
@@ -356,7 +357,7 @@
   </div>
 </section>
 
-      <section class="products">
+      <section id="products" class="products">
   <div class="container">
     <h2 class="products__title">Our&nbsp;<span>PRODUCTS</span></h2> 
     <ul class="products__list list"> 
@@ -418,7 +419,7 @@
   </div>
 </section>
 
-      <section class="sellers">
+      <section id="sellers" class="sellers">
   <div class="container">
     <h2 class="sellers__title">
       <span class="sellers__title__action">Top&nbsp;</span>Sellers
@@ -532,7 +533,7 @@
   </div>
 </section>
 
-      <section class="reviews">
+      <section id="reviews" class="reviews">
   <div class="container">
     <h2 class="reviews__title">
       <span class="reviews__title-accent">Chocolate&nbsp;</span>is loved
@@ -542,7 +543,7 @@
         <img
           class="reviews__img"
           srcset="/imperial-choco/assets/victoria@2x-c05d7f4d.png 2x"
-          src="/imperial-choco/assets/victoria-99f17505.png"
+          s rc="./images/reviews/victoria.png"
           alt="customer woman images"
         />
         <h3 class="reviews__name">Victoria Dobrzhanska</h3>
@@ -603,7 +604,7 @@
 </section>
 
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
   <div class="container">
     <div class="footer__container">
       <h2 class="footer__headline">
@@ -662,19 +663,19 @@
     <nav class="footer__navigation">
       <ul class="footer__nav__list">
         <li>
-          <a href="" class="footer__nav__link">Home</a>
+          <a href="#hero" class="footer__nav__link">Home</a>
         </li>
         <li>
-          <a href="" class="footer__nav__link">How it's made?</a>
+          <a href="#made" class="footer__nav__link">How it's made?</a>
         </li>
         <li>
-          <a href="" class="footer__nav__link">Our products</a>
+          <a href="#products" class="footer__nav__link">Our products</a>
         </li>
         <li>
-          <a href="" class="footer__nav__link">Top sellers</a>
+          <a href="#sellers" class="footer__nav__link">Top sellers</a>
         </li>
         <li>
-          <a href="" class="footer__nav__link">Chocolate is loved</a>
+          <a href="#reviews" class="footer__nav__link">Chocolate is loved</a>
         </li>
       </ul>
     </nav>
