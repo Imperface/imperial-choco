@@ -14,8 +14,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/imperial-choco/assets/index-6e17e2bb.js"></script>
-    <link rel="stylesheet" href="/imperial-choco/assets/index-e6d0f22f.css">
+    <script type="module" crossorigin src="/imperial-choco/assets/index-59be3dab.js"></script>
+    <link rel="stylesheet" href="/imperial-choco/assets/index-3c4f5c3c.css">
   </head>
   <body>
     <header class="header">
@@ -51,14 +51,24 @@
     </nav>
     <ul class="header-icon-list">
       <li>
-        <a class="header-icon-list-item" href="">
+        <a
+          class="header-icon-list-item"
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <svg class="header-links" width="24" height="24">
             <use href="/imperial-choco/assets/sprite-ac4486e7.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li>
-        <a class="header-icon-list-item" href="">
+        <a
+          class="header-icon-list-item"
+          href="https://twitter.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <svg class="header-links" width="24" height="24">
             <use href="/imperial-choco/assets/sprite-ac4486e7.svg#icon-twitter"></use>
           </svg>
@@ -88,14 +98,24 @@
     </ul>
     <ul class="header-menu-icon-list">
       <li>
-        <a class="header-menu-icon" href="">
+        <a
+          class="header-menu-icon"
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <svg class="header-menu-icon-item" width="22" height="22">
             <use href="/imperial-choco/assets/sprite-ac4486e7.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li>
-        <a class="header-menu-icon" href="">
+        <a
+          class="header-menu-icon"
+          href="https://twitter.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <svg class="header-menu-icon-item" width="20" height="20">
             <use href="/imperial-choco/assets/sprite-ac4486e7.svg#icon-twitter"></use>
           </svg>
@@ -323,14 +343,25 @@
   <div class="container">
     <h2 class="made__title">How it's <span class="made-span">made?</span></h2>
     <div class="made__about">
-      <iframe
-        class="made__frame"
-        src="https://www.youtube.com/embed/rIQGMuWdGeM"
-        title="YouTube video player"
-        loading="lazy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+      <div class="video">
+        <a class="video__link" href="https://youtu.be/rIQGMuWdGeM">
+          <img
+            class="video__media"
+            loading="lazy"
+            src="https://i.ytimg.com/vi/rIQGMuWdGeM/maxresdefault.jpg"
+            alt="made chocolate"
+          />
+        </a>
+        <button class="video__button" aria-label="play video">
+          <svg width="68" height="48" viewBox="0 0 68 48">
+            <path
+              class="video__button-shape"
+              d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+            ></path>
+            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+          </svg>
+        </button>
+      </div>
       <div class="made__try">
         <h3 class="made__try__title">
           Try our chocolates today and discover the perfect balance of flavor
@@ -363,7 +394,6 @@
     </div>
   </div>
 </section>
-
       <section id="products" class="products">
   <div class="container">
     <h2 class="products__title">Our&nbsp;<span>PRODUCTS</span></h2>
